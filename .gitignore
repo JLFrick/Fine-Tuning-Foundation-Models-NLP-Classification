@@ -1,0 +1,52 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.yml
+*.sqlite
+*.db
+
+# Model and weights
+saved_model/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Output directories
+output/
+results/
+logs/
+
+# Ignore Hugging Face cache
+cache/
+hf_cache/
+*.lock
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
