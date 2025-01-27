@@ -56,13 +56,13 @@ FINE-TUNING-FOUNDATION-MODELS/
 
 | **Model**         | **Task**                | **Dataset** | **Metric**       | **Performance**     |
 |--------------------|-------------------------|-------------|------------------|---------------------|
-| GPT-2 Baseline     | Sentiment Classification | IMDb        | Accuracy         | `75.32%`            |
-| GPT-2 + LoRA       | Sentiment Classification | IMDb        | Accuracy         | `87.45%`            |
+| GPT-2 Baseline     | Sentiment Classification | IMDb        | Accuracy         | `49.88%`            |
+| GPT-2 + LoRA       | Sentiment Classification | IMDb        | Accuracy         | `75.50%`            |
 | _Upcoming Models_  | _To be added..._        | _TBD_       | _TBD_            | _TBD_               |
 
 **Observations:**
-- The baseline GPT-2 model achieves a decent accuracy on the sentiment classification task but lacks task-specific optimization.
-- The LoRA fine-tuned model significantly outperforms the baseline by leveraging parameter-efficient fine-tuning.
-
+- 	The baseline GPT-2 model performs significantly below expectations for sentiment classification, with accuracy close to random guessing (50%), highlighting its lack of task-specific adaptation.
+- The LoRA fine-tuned GPT-2 model achieves an accuracy of 75.50%, demonstrating the effectiveness of parameter-efficient fine-tuning in improving task-specific performance without retraining the entire model.
+- This substantial improvement shows that LoRA is a powerful method for adapting pre-trained models to new tasks efficiently, even with limited computational resources.
 ---
 
