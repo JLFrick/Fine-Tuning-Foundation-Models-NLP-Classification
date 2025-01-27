@@ -17,7 +17,7 @@ env.bak/
 # Data files
 *.csv
 *.tsv
-*.json
+# *.json
 *.xml
 *.yaml
 *.yml
@@ -28,12 +28,12 @@ env.bak/
 saved_model/
 *.h5
 *.ckpt
-*.pt
-*.pth
+# *.pt
+# *.pth
 
 # Output directories
 output/
-results/
+# results/
 logs/
 
 # Ignore Hugging Face cache
